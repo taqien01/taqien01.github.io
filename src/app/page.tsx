@@ -1,22 +1,21 @@
-import { MainNav } from "./components/main-nav";
-import { UserNav } from "./components/user-nav";
+import Contact from "@/components/view/contact";
+import Profile from "@/components/view/profile";
+import ProjectComponent from "@/components/view/project_components";
 
 export default function Home() {
   return (
-    <>
-      <div className="hidden flex-col md:flex">
-        <div className="border-b">
-          <div className="flex h-16 items-center px-4">
-            <MainNav className="mx-6" />
-            <div className="ml-auto flex items-center space-x-4">
-              <UserNav />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="flex-1 space-y-4 p-8 pt-6">
-        <p>Main Page</p>
-      </div>
-    </>
+    <div className="min-h-screen bg-background">
+    {/* Header */}
+    <header className="border-b">
+      <Profile />
+    </header>
+
+    {/* Projects Section */}
+    <main className="container mx-auto px-4 py-12">
+      <ProjectComponent />
+      {/* Contact Section */}
+      <Contact />
+    </main>
+  </div>
   );
 }
