@@ -23,7 +23,7 @@ export default function ProjectComponent(){
                   alt={project.title}
                   width={300}
                   height={200}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-contain"
                 />
               </div>
               <CardHeader>

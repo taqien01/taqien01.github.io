@@ -12,10 +12,36 @@ export type Project = {
 
 export const projects : Project[] = [
     {
-      title: "Updating ...",
+      title: "Otori",
       description:
-        "Decsription Being Updating...",
-      image: "/update.gif",
-      technologies: ["Adding soon..."],
+        "Otori App is an application designed for monitoring temperature, humidity, and other environmental parameters based on data transmitted by installed IoT devices.",
+      image: "/logo_otori.png",
+      technologies: ["Android", "Firebase"],
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=id.nonelab.introapp",
+        website: "https://otori.id",
+      },
+    },
+    {
+      title: "RUPICASH",
+      description:
+        "RUPICASH is an application provide payment and online transaction. RUPICASH is on it's progress to become one of digital wallet.",
+      image: "/logo_rupi.png",
+      technologies: ["Android", "Firebase", "RestApi"],
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=id.rupicash.rupicash",
+        website: "https://rupi.id",
+      },
+    },
+    {
+      title: "Cocoride",
+      description:
+        "RUPICASH is an application provide payment and online transaction. RUPICASH is on it's progress to become one of digital wallet.",
+      image: "/logo_cocoride.png",
+      technologies: ["Flutter", "Firebase", "RestApi"],
+      links: {
+        playstore: "https://play.google.com/store/apps/details?id=id.cocoride.app",
+        website: "https://www.cocoride.id",
+      },
     },
   ]
