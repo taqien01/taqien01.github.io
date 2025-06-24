@@ -17,7 +17,7 @@ export default function Profile(){
           </div>
           <div className="text-center md:text-left flex-1">
             <h1 className="text-3xl font-bold mb-2">Reza Muttaqien</h1>
-            <p className="text-xl text-muted-foreground mb-4">Full Stack Developer & Mobile App Specialist</p>
+            <p className="text-xl text-muted-foreground mb-4">Mobile Developer</p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-muted-foreground mb-4">
               <div className="flex items-center gap-1">
                 <MapPin className="w-4 h-4" />
