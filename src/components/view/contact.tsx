@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Github, Mail } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -23,6 +23,12 @@ export default function Contact() {
                     <Link href="https://github.com/taqien01" target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
                         View GitHub
+                    </Link>
+                </Button>
+                <Button variant="outline" asChild>
+                    <Link href="https://www.linkedin.com/in/taqien01/" target="_blank" rel="noopener noreferrer">
+                        <Linkedin className="w-4 h-4 mr-2" />
+                        Linkedin
                     </Link>
                 </Button>
             </div>
